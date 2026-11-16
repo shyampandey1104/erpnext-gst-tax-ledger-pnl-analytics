@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include gst_pnl *.css
+recursive-include gst_pnl *.csv
+recursive-include gst_pnl *.html
+recursive-include gst_pnl *.ico
+recursive-include gst_pnl *.js
+recursive-include gst_pnl *.json
+recursive-include gst_pnl *.md
+recursive-include gst_pnl *.png
+recursive-include gst_pnl *.py
+recursive-include gst_pnl *.svg
+recursive-include gst_pnl *.txt
+recursive-exclude gst_pnl *.pyc
